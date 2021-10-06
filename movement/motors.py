@@ -165,7 +165,7 @@ try:
                     leftRight *= 0.5
                     
                 # Determine the drive power levels
-                driveLeft = -upDown
+                driveLeft = upDown
                 driveRight = -upDown
                 
                 if leftRight < -0.05:
