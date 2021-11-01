@@ -2,9 +2,7 @@
 
 ###
 #
-# tbJoystick_py3.py: a script for the ThunderBorg, for motor control using a joystick.
-#
-# 2019-01-08
+# motors.py: a script for the ThunderBorg, for motor control using a joystick.
 #
 ###
 
@@ -137,7 +135,8 @@ try:
                 # A joystick has been moved
                 hadEvent = True
             if hadEvent:
-                # Read axis positions (-1 to +1)
+                print(joystick.get_axis(axisUpDown), joystick.get_axis(axisLeftRight))
+		# Read axis positions (-1 to +1)
                 if axisUpDownInverted:
                     upDown = -joystick.get_axis(axisUpDown)
                 else:
