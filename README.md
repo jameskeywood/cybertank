@@ -11,7 +11,7 @@ Originally this was meant to take place in March 2020, but due to the [Covid-19 
 
 ##
 
-![image](https://github.com/jameskeywood/cybertank/blob/master/cybertank.jpg)
+![image](https://github.com/jameskeywood/cybertank/blob/master/chassis_image.jpg)
 
 ## Resources
 - ThunderBorg setup: https://www.piborg.org/blog/thunderborg-getting-started
